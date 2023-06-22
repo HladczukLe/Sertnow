@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Sertnow</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <a href="cadastro.html" ><img src="img/perfil.png" class="perfil"></a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html"><button>Início</button></a></li>
+                    <li><a href="shows.html"><button>Shows</button></a></li>
+                    <li><a href="Parceria.html"><button>Parcerias</button></a></li>
+                </ul>
+            </nav>
+            <div class="lugar">
+                <img src="img/pin-lugar.png " alt="" class="pin"><label>Qualquer lugar</label><select name="local">
+                    <option value=""></option>
+                    <option value="">AC</option>
+                    <option value="">AL</option>
+                    <option value="">AP</option>
+                    <option value="">AM</option>
+                    <option value="">BA</option>
+                    <option value="">CE</option>
+                    <option value="">DF</option>
+                    <option value="">ES</option>
+                    <option value="">GO</option>
+                    <option value="">MA</option>
+                    <option value="">MT</option>
+                    <option value="">MS</option>
+                    <option value="">MG</option>
+                    <option value="">PA</option>
+                    <option value="">PB</option>
+                    <option value="">PR</option>
+                    <option value="">PE</option>
+                    <option value="">PI</option>
+                    <option value="">RJ</option>
+                    <option value="">RN</option>
+                    <option value="">RS</option>
+                    <option value="">RO</option>
+                    <option value="">RR</option>
+                    <option value="">SC</option>
+                    <option value="">SP</option>
+                    <option value="">SE</option>
+                    <option value="">TO</option>
+                </select>
+            </div>  
+        </header>
+        <div class="touro">
+            <main class="main">
+                <div id="container">
+                    <div class="card">
+                        <img class="img-modalidades" src="img/universitario.jpeg" alt="" alt="a foto do produto" />
+                        <div class="card-content">
+                            <h3>Shows de Sertanejo Universitário dessa temporada.</h3>
+                            <p>R$:399,99</p>
+                        </div>
+                        <input type="submit" value="Comprar" onclick="showPopup()">
+                    </div>
+                    <div class="card">
+                        <img class="img-modalidades" src="img/eletronico.jpeg" alt="foto do produto"/>
+                        <div class="card-content">
+                            <h3>Shows de Sertanejo Eletrônico dessa temporada.</h3>
+                            <p>R$:299,99</p>
+                        </div>
+                        <input type="submit" value="Comprar" onclick="showPopup()">
+                    </div>
+                    <div class="card">
+                        <img class="img-modalidades" src="img/feminejo.jpeg" alt="foto do produto"/>
+                        <div class="card-content">
+                            <h3>Shows de Feminejo dessa temporada.</h3>
+                            <p>R$:499,99</p>
+                        </div>
+                        <input type="submit" value="Comprar" onclick="showPopup()">
+                    </div>
+                    <div class="card">
+                        <img class="img-modalidades" src="img/modao.jpeg" alt="foto do produto"/>
+                        <div class="card-content">
+                            <h3>Shows de Moda de Viola dessa temporada.</h3>
+                            <p>R$:399,99</p>
+                        </div>
+                        <input type="submit" value="Comprar" onclick="showPopup()">
+                    </div>
+                </div>
+                    <div class="right">
+                        <ul>
+                            <li><a href="mailto:sertnow2023@gmail.com"><img src="img/email.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/sertnow/"><img src="img/instagram.png" alt=""><link rel="stylesheet" href=""></a></li>
+                            <li><a href="https://twitter.com/sertnow?s=20"><img src="img/twitter.png" alt=""></a></li>
+                            <li><a href="tel:+5561982826937"><img src="img/telefone.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </main>
+            </div>
+        <div class="popup-overlay" id="popupOverlay">
+            <div class="popup-content">
+                <h3>Em breve mais informações</h3>
+                <button onclick="hidePopup()">Fechar</button>
+            </div>
+        </div>
+        <footer>
+            <img src="img/IFB.png" alt="">
+        </footer>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
