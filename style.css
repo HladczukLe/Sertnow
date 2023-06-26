@@ -183,10 +183,6 @@ footer{
   display: flex;
   justify-items: center;
 }
-footer img{
-  /* width: 20%;
-  height: 50%; */
-}
 
 h1 {
 text-align: center;
@@ -346,7 +342,7 @@ input[type="submit"]:hover {
   max-width: 300px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-
+}
 .popup-content button{
   background-color: var(--cor-bg);
 }
