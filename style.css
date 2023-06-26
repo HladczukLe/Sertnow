@@ -67,6 +67,7 @@ button {
   -webkit-user-select: none;
   touch-action: manipulation;
   will-change: transform;
+  background-color: var(--cor-bg);
   }
   
   button:disabled {
@@ -74,7 +75,7 @@ button {
   }
   
   button:hover {
-  color: #fff;
+  color: black;
   background-color: #41E20C;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
@@ -182,6 +183,10 @@ footer{
   display: flex;
   justify-items: center;
 }
+footer img{
+  /* width: 20%;
+  height: 50%; */
+}
 
 h1 {
 text-align: center;
@@ -267,6 +272,7 @@ input[type="submit"]:hover {
   font-size: 16px;
   margin-bottom: 20px;
   font-family: var(--fonte-roboto);
+  
 }
 .card {
   width: 300px;
@@ -286,6 +292,7 @@ input[type="submit"]:hover {
 
 .card-content {
   padding: 20px;
+  text-align: center;
 }
 
 .card h3{
@@ -339,22 +346,12 @@ input[type="submit"]:hover {
   max-width: 300px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+.popup-content button{
+  background-color: var(--cor-bg);
 }
 
 .popup-title {
   font-size: 20px;
   margin-bottom: 10px;
-}
-
-.popup-close-btn {
-  background-color: #ff5f5f;
-  color: #fff;
-  padding: 8px 16px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-}
-
-.popup-close-btn:hover {
-  background-color: #ff3f3f;
 }
