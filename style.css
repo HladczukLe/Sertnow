@@ -21,19 +21,6 @@ body{
   background-image: url(img/touroverde3.0.png);
   background-size: cover;
 } 
-  /* ul.menu li {
-    display: inline;
-  }
-
-  ul.menu li a {
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-  }
-
-  ul.menu li a:hover {
-    background-color: rgb(44, 44, 44);
-  } */
 .wrapper{
   padding: 0 0 0 7rem;
 }
@@ -182,6 +169,10 @@ footer{
   height: 6rem;
   display: flex;
   justify-items: center;
+}
+footer img{
+  width: 20%;
+  height: 60%;
 }
 
 h1 {
